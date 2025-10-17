@@ -3,7 +3,9 @@
 ########################################
 #cam_mission
 
-int8 shot # 전신, 얼굴, 상체
-int8 angle # 중앙, 왼, 오, 위,아래
+int8 mode # NONE, PICTURE, SHORTFORM
+int8 background # NONE, WHITE, BLUE
+int8 angle # NONE, CENTER, LOW, HIGH, LEFT, RIGHT
 
-
+float32 diff_x
+float32 diff_y
